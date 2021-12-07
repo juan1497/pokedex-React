@@ -1,0 +1,54 @@
+
+.head h1{
+    color:#ff0000;
+    font-size:50px;
+    text-shadow: 3px 0px white;
+    
+}
+.head input{
+    border-style: none;
+    border-radius: 10px;
+    text-align: center
+}
+
+.head div button{
+    border-style: none;
+    background: transparent;
+    margin:15px;
+    font-size:30px;
+    color:white;
+
+}
+.head div button:hover{
+    cursor: grab
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.busca{
+    color:white;
+}
+.pokemon {
+    border-radius: 20px;    
+    display: flex;
+    justify-content: center;
+    background: rgb(201, 199, 86);
+    width: 300px;
+    
+}
+.title {
+    align-self:center;
+}
+.pokemon .stats p{
+    font-weight: bold;
+    text-align:center;
+    
+}
+.pokemon .stats p span{
+    color:red;
+    
+}
